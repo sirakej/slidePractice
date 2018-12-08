@@ -38,8 +38,8 @@ public class welcomeSlide extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome_slide);
 
-        skip =(Button) findViewById(R.id.btn_skip);
-        next =(Button) findViewById(R.id.btn_next);
+       // skip =(Button) findViewById(R.id.btn_skip);
+        //next =(Button) findViewById(R.id.btn_next);
         slider=(ViewPager) findViewById(R.id.pager);
         linearDots=(LinearLayout) findViewById(R.id.layout_dots);
 
